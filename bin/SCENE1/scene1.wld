@@ -1,0 +1,41 @@
+[Texture]
+TextureNum = 4
+Texture00 = 4.bmp
+Texture01 = 3.bmp
+Texture02 = 2.bmp
+Texture03 = 1.bmp
+
+; Object :: = 0 | 1 | 2
+;		0 - Cube
+;		1 - Pyramid
+;		2 - Room
+;		3 - Light
+
+; Cube ::= xc, yc, zc, size, texturenum, rot
+; Pyr  ::= xc, yc, zc, size, texturenum, rot
+; Room ::= a, b, c, texturenum1, ts1, texturenum2, ts2, texturenum3, ts3
+
+[Object]
+ObjectNum = 4
+Object00 = 000, 0, 0, -50, 30,   1, 4
+Object03 = 001, 0, -50, -50, 20,   0, 4
+Object01 = 002, 500, 500, 200, 0, 0.5,  2, 0.5,   3, 0.5
+Object02 = 003, 100, 100, -50, 100, 0, -150, 7
+;Object02 = 003, 50, 50, 60, 180, 0, 10, 7
+
+;Object01 = Room, 0, 0, 0, 100
+
+
+; Viewpoint ::= OriginX, OriginY, OriginZ, alfa, beta, vega ; (deg)
+
+[Viewpoint]
+ViewpointNum = 3
+Viewpoint00 = 50, 50, 0, 110, 5, 200
+Viewpoint02 = 100, 100, -50, 110, 5, 200
+Viewpoint01 = 50, -100, -20, 80, 0, 0
+
+
+
+; Light ::= OriginX, OriginY, OriginZ, alfa, beta, vega ; (deg)
+
+

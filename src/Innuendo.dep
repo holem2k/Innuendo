@@ -1,0 +1,42 @@
+# Microsoft Developer Studio Generated Dependency File, included by Innuendo.mak
+
+.\Innuendo.cpp : \
+	".\Common.h"\
+	".\Polygon.h"\
+	".\Vertex.h"\
+	".\View.h"\
+	
+
+.\Polygon.cpp : \
+	".\Assert!.h"\
+	".\Common.h"\
+	".\Polygon.h"\
+	".\Vertex.h"\
+	
+
+.\Screen.cpp : \
+	".\Assert!.h"\
+	".\Screen.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\vc\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+.\Vertex.cpp : \
+	".\Common.h"\
+	".\Vertex.h"\
+	
+
+.\View.cpp : \
+	".\Common.h"\
+	".\Polygon.h"\
+	".\Vertex.h"\
+	".\View.h"\
+	
+
+.\Win.cpp : \
+	".\Assert!.h"\
+	".\Win.h"\
+	
